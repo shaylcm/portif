@@ -1,0 +1,718 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+
+
+.menu
+{
+    background-color: rgb(254, 95, 85);
+    width: 100vw;
+    height: 40px;
+    position: fixed;
+    order: 1;
+    overflow-x: hidden;
+
+
+}
+
+.menu ul
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    
+    
+    
+}
+.menu ul a
+{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+   
+}
+
+.introducao
+{
+    background-color:white ;
+    width: 100vw;
+    height: 400px;
+    overflow-x: hidden;
+
+
+
+}
+
+.perfil
+{
+    width: 150px;
+    height: 150px;
+    background-image: url("fotoperfil.png");
+    background-size: 145px;
+    background-position-x: 4px;
+    background-position-y: -10px;
+    border: 2px solid black;
+    border-radius: 450px;
+    display: block;
+    position: relative;
+    left: 45%;
+    top: 15%;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+.nome
+{
+    width: 100vw;
+    height: 45px;
+    border: 2px solid black;
+    display: block;
+    position: relative;
+    top: 25%;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+
+}
+.nome p
+{
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+
+.sobre
+{
+    background-color: rgb(87, 115, 153);
+    width: 100vw;
+    height: 300px;
+    color: white;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+
+  
+
+
+}
+.sobre p
+{
+    position: relative;
+    top: 35%;
+}
+.sobre h1
+{
+    display: block;
+    position: relative;
+    left: 45%;
+    top: 15%;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.portifolio
+{
+    background-color: rgb(73, 88, 103);
+    width: 100vw;
+    height: 700px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+
+    align-items: center;
+    gap: 10px; /*espaçamento entra linhas e colunas */
+   
+    
+    
+
+
+    
+
+
+   
+}
+
+.portifolio h1
+
+{
+    position: relative;
+    bottom: 200px;
+    right: -650px
+    
+}
+
+.projeto1
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 220px;
+
+}
+  
+.projeto2
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 210px;
+  
+    
+   
+
+
+
+}
+.projeto3
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 200px;
+
+}
+.projeto4
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 185px;
+
+}
+
+
+
+
+.contato h1
+{
+    display: block;
+    position: relative;
+    left: 45%;
+    top: 10%;
+    align-items: center;
+    justify-content: center;
+
+}
+.contato
+{
+    background-color: rgb(189, 213, 234);
+    width: 100vw;
+    height: 300px;
+    overflow-x: hidden;
+ 
+
+
+
+}
+.contato ul
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.contato  ul a
+{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+   
+
+}
+
+@media (max-width:360px)
+{
+
+    .portifolio
+{
+    background-color: rgb(73, 88, 103);
+    width: 100vw;
+    height: 700px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
+    align-items: center;
+    gap: 10px; /*espaçamento entra linhas e colunas */
+    overflow: auto;
+
+    
+    
+}
+
+
+
+
+.projeto1
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: -70px;;
+ 
+
+
+}
+  
+.projeto2
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: -70px;;
+ 
+    
+   
+
+
+
+}
+.projeto3
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: -70px;;
+ 
+   
+
+}
+.projeto4
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: -70px;;
+ 
+   
+
+
+}
+
+}
+
+/*----------------------------------------------------------------------------------------*/
+@media (min-width:361px) and (max-width:720px)
+{
+
+    .portifolio
+{
+    background-color: rgb(73, 88, 103);
+    width: 100vw;
+    height: 700px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(720px,1fr));
+    align-items: center;
+    text-align: center;
+    gap: 10px; /*espaçamento entra linhas e colunas */
+    overflow-x: hidden;
+    justify-items: center;
+
+    
+    
+}
+
+.projeto1
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 0;
+ 
+
+}
+  
+.projeto2
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 0;;
+  
+  
+    
+   
+
+
+
+}
+.projeto3
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 0;;
+
+
+}
+.projeto4
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 0;
+
+}
+.portifolio h1
+
+{
+    position: relative;
+    bottom: 5px;
+    right: 10px;
+    text-align: center;
+    
+}
+
+
+}
+@media (min-width:361px) and (max-width:720px)
+{
+
+    .portifolio
+{
+    background-color: rgb(73, 88, 103);
+    width: 100vw;
+    height: 700px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(639px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(540px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(474px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(384px,1fr));
+    align-items: center;
+    text-align: center;
+    gap: 10px; /*espaçamento entra linhas e colunas */
+    overflow-x: hidden;
+    justify-items: center;
+
+    
+    
+}
+
+.projeto1
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 0;
+ 
+
+}
+  
+.projeto2
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 0;;
+  
+  
+    
+   
+
+
+
+}
+.projeto3
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 0;;
+
+
+}
+.projeto4
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 0;
+
+}
+.portifolio h1
+
+{
+    position: relative;
+    bottom: 5px;
+    right: 10px;
+    text-align: center;
+    
+}
+}
+@media (min-width:1025px) and (max-width:2000px)
+{
+
+    .portifolio
+{
+    background-color: rgb(73, 88, 103);
+    width: 100vw;
+    height: 700px;
+    color: white;
+    display: grid;
+    
+    grid-template-columns: 400px 400px ;
+    align-items: center;
+    text-align: center;
+    gap: 10px; /*espaçamento entra linhas e colunas */
+    overflow-x: hidden;
+    justify-items: center;
+    
+
+    
+    
+}
+
+.projeto1
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 0;
+ 
+
+}
+  
+.projeto2
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 0;;
+  
+  
+    
+   
+
+
+
+}
+.projeto3
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 0;;
+
+
+}
+.projeto4
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 0;
+
+}
+.portifolio h1
+
+{
+    position: relative;
+    bottom: 5px;
+    right: -190px;
+    text-align: center;
+    
+}
+}
+
+
+@media (min-width:721px) and (max-width:1024px)
+{
+
+    .portifolio
+{
+    background-color: rgb(73, 88, 103);
+    width: 100vw;
+    height: 700px;
+    color: white;
+    display: grid;
+    text-align: center;
+    grid-template-columns:500px 500px;
+    gap: 10px; /*espaçamento entra linhas e colunas */
+    overflow-x: hidden;
+    justify-items: center;
+    
+
+    
+    
+}
+
+.projeto1
+{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 0;
+ 
+
+}
+  
+.projeto2
+{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 0;;
+  
+  
+    
+   
+
+
+
+}
+.projeto3
+{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 0;;
+
+
+}
+.projeto4
+{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 0;
+
+}
+.portifolio h1
+
+{
+    position: relative;
+    bottom: 5px;
+    right: -250px;
+    text-align: center;
+    
+}
+}
+
+@media (min-width:1025px) and (max-width:2000px)
+{
+
+    .portifolio
+{
+    background-color: rgb(73, 88, 103);
+    width: 100vw;
+    height: 700px;
+    color: white;
+    display: grid;
+    text-align: center;
+    grid-template-columns:620px 620px;
+    gap: 10px; /*espaçamento entra linhas e colunas */
+    overflow-x: hidden;
+    justify-items: center;
+    
+
+    
+    
+}
+
+.projeto1
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 0;
+ 
+
+}
+  
+.projeto2
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 0;;
+  
+  
+    
+   
+
+
+
+}
+.projeto3
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 0;;
+
+
+}
+.projeto4
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: relative;
+    right: 0;
+
+}
+.portifolio h1
+
+{
+    position: relative;
+    bottom: 5px;
+    right: -350px;
+    text-align: center;
+    
+}
+}
+
+
+
+
+
+
+
+
