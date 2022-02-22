@@ -3,13 +3,15 @@
   margin: 0px;
   padding: 0px;
 
+
 }
+
 
 
 
 .menu
 {
-    background-color: rgb(254, 95, 85);
+    background-color: rgb(0, 0, 0);
     width: 100vw;
     height: 40px;
     position: fixed;
@@ -42,10 +44,10 @@
 
 .introducao
 {
-    background-color:white ;
+    background-color: #2F4F4F;
     width: 100vw;
     height: 400px;
-    overflow-x: hidden;
+    overflow: hidden;
 
 
 
@@ -126,24 +128,15 @@
 }
 .portifolio
 {
-    background-color: rgb(73, 88, 103);
+    background-color:white;
     width: 100vw;
     height: 700px;
-    color: white;
+    color: black;
     display: grid;
     grid-template-columns: repeat(6,1fr);
 
     align-items: center;
-    gap: 10px; /*espaçamento entra linhas e colunas */
-   
-    
-    
-
-
-    
-
-
-   
+    gap: 10px; /*espaçamento entra linhas e colunas */  
 }
 
 .portifolio h1
@@ -213,7 +206,7 @@
 }
 .contato
 {
-    background-color: rgb(189, 213, 234);
+    background-color: #008080;
     width: 100vw;
     height: 300px;
     overflow-x: hidden;
@@ -245,6 +238,33 @@
 
 @media (max-width:360px)
 {
+    .menu 
+    {
+        position: absolute;
+    }
+
+    .introducao
+    {
+        overflow: hidden;
+    }
+
+    .sobre p
+    {
+        font-size: 15px;
+        position: relative;
+        left: -35px;;
+    }
+    .nome
+    {
+        width: 200px;
+        position: relative;
+        left: 80px;;
+    }
+    .perfil
+    {
+        position: relative;
+        left: 110px;
+    }
 
     .portifolio
 {
