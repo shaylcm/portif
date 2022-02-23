@@ -159,6 +159,7 @@
    /* top: 50px;*/
     width:300px;
     height: 300px;
+    background-color: rgb(0, 0, 0,0.1);
     left: 50px;
     top: 90px;;
    
@@ -212,6 +213,29 @@
    
 
 }
+.icone
+{
+    font-size: 23px;
+    text-align: center;
+}
+ img
+{
+    position: relative;
+    bottom: 60;
+    left: -9%;
+    display: block;
+    width: 19rem;
+    transition:all 300ms ease-in-out;
+
+   
+}
+
+img:hover
+{
+    transform: translate(-3%,-3%) scale(1.2);
+
+}
+
 
 /*----------------------------------------------------------------------------------------------------------*/
 
@@ -284,13 +308,42 @@
 {
     width: 250px;
     height: 250px;
-    background-color: rgb(0, 0, 0,0.5);
+    background-color: rgb(0, 0, 0,0.1);
     position: relative;
     right: -70px;;
  
 
 
 }
+.icone
+{
+    font-size: 23px;
+    text-align: center;
+}
+ img
+{
+    position: relative;
+    bottom: 60;
+    left: -9%;
+    display: block;
+    width: 19rem;
+    transition:all 300ms ease-in-out;
+
+   
+}
+
+img:hover
+{
+    transform: translate(-3%,-3%) scale(1.2);
+
+}
+
+
+
+
+
+
+
 }
   
 
@@ -311,7 +364,7 @@
     grid-template-columns: repeat(auto-fill,minmax(423px,1fr));
     align-items: center;
     gap: 10px; /*espaçamento entra linhas e colunas */
-    overflow: hidden;
+    overflow: auto;
 
 
     
@@ -322,7 +375,7 @@
 {
     width: 150px;
     height: 150px;
-    background-image: url(termometro.png);
+    background-color: rgb(0, 0, 0,0.1);
     position: relative;
     left: 35%;
  
@@ -372,6 +425,36 @@
 {
     display: none;
 }
+
+.icone
+{
+    font-size: 15px;
+    text-align: center;
+}
+ img
+{
+    position: relative;
+    bottom: 6;
+    left: 9%;
+    display: block;
+    width: 9rem;
+    transition:all 300ms ease-in-out;
+
+   
+}
+
+img:hover
+{
+    transform: translate(-3%,-3%) scale(1.2);
+
+}
+
+
+
+
+
+
+
 }
 /*---------------------------------------------------------------------*/
 @media (min-width:528px) and (max-width:720px)
@@ -388,7 +471,7 @@
     grid-template-columns: repeat(auto-fill,minmax(423px,1fr));
     align-items: center;
     gap: 10px; /*espaçamento entra linhas e colunas */
-    overflow: hidden;
+    overflow: auto;
 
 
     
@@ -397,9 +480,9 @@
 
 .projeto1
 {
-    width: 150px;
-    height: 150px;
-    background-color: rgb(0, 0, 0,0.5);
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0,0.1);
     position: relative;
     left: 35%;
  
@@ -449,6 +532,30 @@
 {
     display: none;
 }
+
+
+.icone
+{
+    font-size: 23px;
+    text-align: center;
+}
+ img
+{
+    position: relative;
+    bottom: 60;
+    left: -9%;
+    display: block;
+    width: 15rem;
+    transition:all 300ms ease-in-out;
+
+   
+}
+
+img:hover
+{
+    transform: translate(-3%,-3%) scale(1.2);
+
+}
 }
 
 
@@ -473,7 +580,7 @@
 {
     width: 250px;
     height: 250px;
-    background-color: rgb(0, 0, 0,0.5);
+    background-color: rgb(0, 0, 0,0.1);
     position: relative;
     right: 0;
  
@@ -497,6 +604,34 @@
 {
     display: none;
 }
+.icone
+{
+    font-size: 23px;
+    text-align: center;
+}
+ img
+{
+    position: relative;
+    bottom: 60;
+    left: -9%;
+    display: block;
+    width: 19rem;
+    transition:all 300ms ease-in-out;
+
+   
+}
+
+img:hover
+{
+    transform: translate(-3%,-3%) scale(1.2);
+
+}
+
+
+
+
+
+
 }
 
 
