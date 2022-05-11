@@ -67,7 +67,7 @@ body
 {
     width:250px;
     height: 250px;
-    background-image: url(../img/Avata.png);
+    background-image: url("assets/img/Avata.png");
     background-size: 250px;
     background-repeat: no-repeat;
     border-radius: 400px;
