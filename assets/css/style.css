@@ -78,7 +78,7 @@ body
     justify-content: center;
     transition:all 300ms ease-in-out;
 
-    /*parte referente a aanimação do perfil*/
+    /*parte referente a animação do perfil*/
     animation-name:example;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -144,6 +144,7 @@ body
     color: white;
     display: flex;
     overflow: hidden;
+    position: relative;
 
   
 
