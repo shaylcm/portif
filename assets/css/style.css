@@ -34,6 +34,7 @@ body
     justify-content: right ;
     list-style: none;
     top: 30%;
+    
 
     
     
@@ -41,13 +42,13 @@ body
 }
 .menu ul a
 {
-    padding: 20px;
+    padding: 25px;
     display: block;
     text-decoration: none;
     color: #DC143C;
     font-size: 20px;
     position: relative;
-    right: 70%;
+    right: 80%;
     top: 10px;
     
    
@@ -131,7 +132,7 @@ body
     display: block;
     color:white ;
     position: relative;
-    right:60%;
+    right:55%;
     font-size: 55px;
     top: 15px;
     border: 2px  solid #DC143C ;
