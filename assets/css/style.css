@@ -59,9 +59,9 @@ body
 
 .introducao
 {
-    background-image: url("../img/shayene.jpg") ;
+    background-image: url("../img/devmulher.jpg") ;
     background-repeat: no-repeat;
-    background-size: 130%;
+    background-size: 100%;
     width: 100%;
     height: 90vh;
     overflow: hidden;
@@ -103,6 +103,7 @@ body
     border: 3px solid #DC143C;
     display: block;
     position: relative;
+    left: 30%;
     top: 30%;
     font-size: 45px;
     align-items: center;
@@ -128,13 +129,13 @@ body
   text-align: center;
   justify-content: center;
   text-transform: uppercase;
-  color:black;
+  color:white;
   font-family:'Courier New', Courier, monospace;
 }
 
 .nome h6
 {
-    color: black;
+    color: white;
     position: relative;
     align-items: center;
     text-align: center;
